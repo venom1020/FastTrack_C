@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1663634831 source:c:\users\user\desktop\c bridge course\day3\functions.c
+	"day3.h"
+	<math.h>
+	<stdio.h>
+
+1663634501 c:\users\user\desktop\c bridge course\day3\day3.h
+
+1663634784 source:c:\users\user\desktop\c bridge course\day3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"day3.h"
+	<assert.h>
+
+1664088843 source:c:\users\user\desktop\msis\c bridge course\day3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"day3.h"
+	<assert.h>
+
+1664087623 c:\users\user\desktop\msis\c bridge course\day3\day3.h
+
+1664088979 source:c:\users\user\desktop\msis\c bridge course\day3\functions.c
+	"day3.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
