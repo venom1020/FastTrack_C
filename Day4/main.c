@@ -24,5 +24,11 @@ int main()
     find_max_min(arr,5,m,n);
     printf("\nMax=%d min=%d",max,min);
 
+    //test program 4
+    int arr1[5]={1,2,3,4,5},arr2[3]={1,2,3};
+    set_union(arr1,5,arr2,3);
+    set_intersection(arr1,5,arr2,3);
+    set_difference(arr1,5,arr2,3);
+
     return 0;
 }
