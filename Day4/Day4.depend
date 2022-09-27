@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1664202283 source:c:\users\user\desktop\msis\c bridge course\day4\functions.c
+
+1664201455 source:c:\users\user\desktop\msis\c bridge course\day4\main.c
+	<stdio.h>
+	"Day4.h"
+
+1664199943 c:\users\user\desktop\msis\c bridge course\day4\day4.h
+
