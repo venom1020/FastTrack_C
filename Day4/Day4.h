@@ -9,3 +9,4 @@ int search(int[],int, int);
 void set_union(int[],int,int[],int);
 void set_intersection(int[],int,int[],int);
 void set_difference(int[],int,int[],int);
+void removeDupl();

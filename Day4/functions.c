@@ -108,4 +108,12 @@ void set_difference(int arr1[],int len1,int arr2[],int len2)
 }
 
 
+// day 4 program5
+
+void removeDupl()
+{ int arr[10],newArr[10],len=10;
+  printf("Input 10 elements to the array: ");
+  for(int i=0;i<10;i++) scanf("%d",&arr[i]);
+  set_difference(arr,len,newArr,len);
+}
 
