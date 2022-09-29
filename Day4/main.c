@@ -19,6 +19,8 @@ int main()
 
     int arr3[5]={1,2,3,4,5};
 
+    int arr4[10]={8,6,7,4,3,15,14,1,12,2};
+
     switch(choice){
     case 1: //test program 1
 
@@ -51,8 +53,14 @@ int main()
             removeDupl();
             break;
     case 6: //test program 6
-
             assert(search(arr3,5,1));
+            break;
+    case 7: //test program 7
+            sortArray(arr4,10,'a');
+            assert(binary_search(arr4,10,15));
+            break;
+    case 8: //test program 8
+            program8();
             break;
     default : break;
     }

@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1664413470 source:c:\users\user\desktop\msis\c bridge course\day4\functions.c
+1664464728 source:c:\users\user\desktop\msis\c bridge course\day4\functions.c
 	<stdio.h>
 
-1664413991 source:c:\users\user\desktop\msis\c bridge course\day4\main.c
+1664464933 source:c:\users\user\desktop\msis\c bridge course\day4\main.c
 	<stdio.h>
 	<assert.h>
 	"Day4.h"
 
-1664411178 c:\users\user\desktop\msis\c bridge course\day4\day4.h
+1664464952 c:\users\user\desktop\msis\c bridge course\day4\day4.h
 

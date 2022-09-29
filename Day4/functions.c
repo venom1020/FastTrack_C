@@ -117,3 +117,41 @@ void removeDupl()
   set_difference(arr,len,newArr,len);
 }
 
+
+//day 4 program 7
+int binary_search(int arr[], int len,int element)
+{ int left=0,right=len-1,mid,flag=0;
+    while(left!=right)
+{   mid=(left+right)/2;
+    if(arr[mid]==element)
+        { flag=1;
+          break;
+        }
+    else if(element<arr[mid])
+            right=mid-1;
+    else left=mid+1;
+    if(arr[left]==element || arr[right]==element) {
+        flag=1;
+        break;
+    }
+
+}
+if(flag==1) return 1;
+else return 0;
+}
+
+//day 4 program 8
+
+void program8(){
+int n,arr[200],sum=0;
+printf("Enter the number of integers:");
+scanf("%d",&n);
+printf("Enter the integers:");
+for(int i=0;i<n;i++) scanf("%d",&arr[i]);
+
+for(int i=1;i<n;i++)
+{
+    sum+=arr[i]*arr[i-1];
+}
+printf("\nSum of sequence:%d",sum);
+}
