@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1664702258 source:c:\users\user\desktop\msis\c bridge course\day7\day7\functions.c
+	"day7.h"
+	<stdlib.h>
+	<stdio.h>
+
+1664702216 c:\users\user\desktop\msis\c bridge course\day7\day7\day7.h
+
+1664702443 source:c:\users\user\desktop\msis\c bridge course\day7\day7\main.c
+	<stdio.h>
+	<assert.h>
+	<stdlib.h>
+	"day7.h"
+
