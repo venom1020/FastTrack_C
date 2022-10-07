@@ -11,3 +11,16 @@
 
 1664498045 c:\users\user\desktop\msis\c bridge course\day5\day5\day5.h
 
+1665104436 source:c:\users\user\desktop\msis\c bridge course\day5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"day5.h"
+	<assert.h>
+
+1665104463 c:\users\user\desktop\msis\c bridge course\day5\day5.h
+
+1665104524 source:c:\users\user\desktop\msis\c bridge course\day5\functions.c
+	<string.h>
+	<stdio.h>
+	<ctype.h>
+

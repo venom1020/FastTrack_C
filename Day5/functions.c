@@ -1,5 +1,6 @@
 #include<string.h>
 #include<stdio.h>
+#include<ctype.h>
 // day5 program 1
 int strlength(char str[])
 {  int i=0;
@@ -53,3 +54,35 @@ printf("%s",formmatted_date);
 
 //day 5 program 3
 
+void convertL2U(){
+char c[30];
+printf("Enter the string to be processed:");
+scanf("%[^\n]s",c);
+int i=0;
+while(c[++i]!='\0')
+        c[i]=toupper(c[i]);
+
+printf("processed string: %s",c);
+}
+
+//day 5 program 4
+void stringRev(){
+char c[30],temp;
+printf("Enter the string to be processed:");
+scanf("%[^\n]s",c);
+int len=strlength(c);
+for(int i=0;i<len/2;i++)
+  { temp=c[i];
+    c[i]=c[len-1-i];
+    c[len-1-i]=temp;
+
+  }
+printf("Reversed String:%s",c);
+}
+
+// day 5 program 5
+void construct(int row,int col,int **arr)
+{ arr=()
+
+
+}
