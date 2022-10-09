@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1665295353 source:c:\users\user\desktop\msis\c bridge course\day8\function.c
+	"day8.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1665295197 c:\users\user\desktop\msis\c bridge course\day8\day8.h
+
+1665295359 source:c:\users\user\desktop\msis\c bridge course\day8\main.c
+	"day8.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
