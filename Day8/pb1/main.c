@@ -41,12 +41,8 @@ int main()
               break;
       default : flag=1;
                 break;
-
-      }
-
-
-    }
-
+}
+}
     free(ptr);
     return 0;
 }

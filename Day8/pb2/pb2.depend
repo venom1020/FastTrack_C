@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1665314310 source:c:\users\user\desktop\msis\c bridge course\day8\pb2\function.c
+	"pb2.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1665311448 c:\users\user\desktop\msis\c bridge course\day8\pb2\pb2.h
+
+1665314289 source:c:\users\user\desktop\msis\c bridge course\day8\pb2\main.c
+	"pb2.h"
+	<stdio.h>
+

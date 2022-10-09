@@ -10,7 +10,6 @@ ptr=(stud*)malloc(sizeof(stud)*N);
 return ptr;
 }
 
-
 // display one specific student record
 void display(stud *ptr)
 { printf("\n\nRoll No: %d",ptr->rollNo);
