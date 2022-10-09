@@ -13,7 +13,7 @@ return ptr;
 
 // display one specific student record
 void display(stud *ptr)
-{ printf("\nRoll No: %d",ptr->rollNo);
+{ printf("\n\nRoll No: %d",ptr->rollNo);
   printf("\nName: %s",ptr->name);
   printf("\nAge: %d",ptr->age);
   printf("\nMarks: ");
