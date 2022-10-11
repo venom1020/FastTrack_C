@@ -1,6 +1,7 @@
 #include<string.h>
 #include<stdio.h>
 #include<ctype.h>
+#include<stdlib.h>
 // day5 program 1
 int strlength(char str[])
 {  int i=0;
@@ -81,8 +82,61 @@ printf("Reversed String:%s",c);
 }
 
 // day 5 program 5
-void construct(int row,int col,int **arr)
-{ arr=()
+int** construct(int row,int col)
+{   int **arr;
+    arr=(int**)malloc(sizeof(int*)*row);
+    for(int i=0;i<row;i++)
+    { *(arr+i)=(int *)malloc(sizeof(int)*col);
+       printf("Enter elements of row %d:",i+1);
+       for(int j=0;j<col;j++)
+            scanf("%d",(*(arr+i)+j));
 
+    }
+    return arr;
+}
+void display(int row,int col,int **arr)
+{   printf("\nElements of the array:\n");
+    for(int i=0;i<row;i++)
+    {  for(int j=0;j<col;j++)
+            printf("%d ",*(*(arr+i)+j));
+       printf("\n");
 
+    }
+}
+
+//day 5 program 6
+int** add(int** arr1,int** arr2,int r,int c)
+{ int **sum;
+  sum=(int**)malloc(sizeof(int*)*r);
+  for(int i=0;i<r;i++)
+  { *(sum+i)=(int*)malloc(sizeof(int)*c);
+      for(int j=0;j<c;j++)
+         *(*(sum+i)+j)=*(*(arr1+i)+j)+*(*(arr2+i)+j);
+
+  }
+return sum;
+}
+
+//day 5 program 7
+int checkMatrix(int **arr1,int **arr2,int r,int c){
+for(int i=0;i<r;i++)
+{ for(int j=0;j<c;j++)
+  { if(*(*(arr1+i)+j)!=*(*(arr2+i)+j)) return 0;
+
+  }
+}
+return 1;
+}
+
+//day 5 program 8
+int sparse(int **arr,int r,int c){
+int zeroes=0;
+for(int i=0;i<r;i++)
+{ for(int j=0;j<c;j++)
+  { if(*(*(arr+i)+j)==0) zeroes++;
+  }
+}
+if(zeroes>(r*c)/2) return 1;
+else return 0;
+//returns 1 if sparse matrix
 }
