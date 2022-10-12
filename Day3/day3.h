@@ -1,4 +1,4 @@
-#define cat(x,y) (x*10+y)
+#define cat(x,y) (x##y)
 #define sqr(x) (x*x)
 int bin2Decimal(int);
 void genSequence(int);
